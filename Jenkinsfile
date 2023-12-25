@@ -34,8 +34,8 @@ node {
      stage('RunningImages') {
 
          sh '''
-         docker push dnyani28/webapp:latest
-          docker run -d -p 8989:80 dnyani28/webapp:latest
+         docker push dnyani28/webpage:latest
+          docker run -d -p 8989:80 dnyani28/webpage:latest
           docker ps
            
          '''
