@@ -34,6 +34,7 @@ node {
      stage('RunningImages') {
 
          sh '''
+          docker pull dnyani28/webpage:latest
           docker run -d -p 2222:80 dnyani28/webpage:latest
           docker ps
            
