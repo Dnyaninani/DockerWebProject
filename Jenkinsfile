@@ -35,7 +35,7 @@ node {
 
          sh '''
           docker pull dnyani28/webpage:latest
-          docker run -d -p 2222:80 dnyani28/webpage:latest
+          docker run -d -p 7777:80 dnyani28/webpage:latest
           docker ps
            
          '''
